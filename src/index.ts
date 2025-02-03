@@ -1,9 +1,9 @@
 import * as cheerio from "cheerio";
+import consola from "consola";
 import fs from "fs";
 import yoctoSpinner from "yocto-spinner";
 
 import { getHTML } from "#lib/get-html";
-import consola from "consola";
 import { wait } from "#lib/wait";
 
 (async function () {
